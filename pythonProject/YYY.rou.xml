@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-09-19 17:07:27 by Eclipse SUMO netedit Version 1.24.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="car" length="5.00" maxSpeed="13.89" guiShape="passenger" accel="2.6" decel="9.0" sigma="0.5"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" type="car" begin="0.00" departLane="best" departSpeed="max" from="LD1" to="DL2" end="1200.00" vehsPerHour="60"/>
+    <flow id="f_1" type="car" begin="0.00" departLane="best" departSpeed="max" from="LD1" to="RD1" end="1200.00" vehsPerHour="60"/>
+    <flow id="f_10" type="car" begin="0.00" departLane="best" departSpeed="max" from="UL2" to="LU1" end="1200.00" vehsPerHour="60"/>
+    <flow id="f_11" type="car" begin="0.00" departLane="best" departSpeed="max" from="UL2" to="DL2" end="1200.00" vehsPerHour="60"/>
+    <flow id="f_12" type="car" begin="0.00" departLane="best" departSpeed="max" from="UL2" to="RD1" end="1200.00" vehsPerHour="60"/>
+    <flow id="f_2" type="car" begin="0.00" departLane="best" departSpeed="max" from="LD1" to="UR2" end="1200.00" vehsPerHour="60"/>
+    <flow id="f_3" type="car" begin="0.00" departLane="best" departSpeed="max" from="DR2" to="RD1" end="1200.00" vehsPerHour="10"/>
+    <flow id="f_4" type="car" begin="0.00" departLane="best" departSpeed="max" from="DR2" to="UR2" end="1200.00" vehsPerHour="60"/>
+    <flow id="f_5" type="car" begin="0.00" departLane="best" departSpeed="max" from="DR2" to="RD1" end="1200.00" vehsPerHour="60"/>
+    <flow id="f_6" type="car" begin="0.00" departLane="best" departSpeed="max" from="DR2" to="LU1" end="1200.00" vehsPerHour="60"/>
+    <flow id="f_7" type="car" begin="0.00" departLane="best" departSpeed="max" from="RU1" to="LU1" end="1200.00" vehsPerHour="60"/>
+    <flow id="f_8" type="car" begin="0.00" departLane="best" departSpeed="max" from="RU1" to="UR2" end="1200.00" vehsPerHour="60"/>
+    <flow id="f_9" type="car" begin="0.00" departLane="best" departSpeed="max" from="RU1" to="DL2" end="1200.00" vehsPerHour="60"/>
+</routes>

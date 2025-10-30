@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+  <!-- override / ensure tlLogic with safe timings -->
+  <tlLogic id="J11" type="static" programID="0" offset="0">
+    <phase duration="30" state="GGgGrrGGgGrr"/>
+    <phase duration="4"  state="yygyrryygyrr"/>
+    <phase duration="30" state="rrGrrrrrGrrr"/>
+    <phase duration="4"  state="rryrrrrryrrr"/>
+    <phase duration="25" state="GrrGGgGrrGGg"/>
+    <phase duration="4"  state="yrryygyrryyg"/>
+    <phase duration="10" state="rrrrrGrrrrrG"/>
+    <phase duration="3"  state="rrrrryrrrrry"/>
+  </tlLogic>
+
+  <!-- optional: reduce teleports and increase tolerance (if needed) -->
+  <!-- SUMO teleports are configured in .sumocfg; if you face teleports adjust there -->
+</additional>
